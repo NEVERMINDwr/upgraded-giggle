@@ -133,16 +133,7 @@ void loop() {
   blue_val=manipulate(blue_val);
   Serial.print(" ");
   
-  //Serial.print(blue_val);
   
- //Serial.print(" "); 
- //Serial.print(red_val*255);
- //Serial.print(" ");
- //Serial.print((final_green_val-black_green_val)/(white_green_val-black_green_val));
- //Serial.print(" ");
- //Serial.print((final_blue_val-black_blue_val)/(white_blue_val-black_blue_val));
- //Serial.println ();
- // Serial.print(red_val);
   Serial.print(" R = "); 
   Serial.print(red_val);
   Serial.print(" G = ");
@@ -151,11 +142,7 @@ void loop() {
   Serial.print(blue_val);
   Serial.println();
 
-  //analogWrite(6,(int)(0.196*red_val));
-  //analogWrite(11,(int)(0.196*green_val-5));
-  //analogWrite(10,(int)(0.196*blue_val));
   
-
 }
 void takeReading(int times)
 {
